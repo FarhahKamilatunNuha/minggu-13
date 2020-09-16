@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <%if (inventory.length > 0) {%>
+    <%inventory.forEach((inventory) => {%>
+
+        <div class="inventory-item card">
+            <h5 class="text">
+                <% inventory.title %>
+            </h5>
+        </div>
+    <% )}; %>
+</html>
